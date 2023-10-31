@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 require('dotenv').config();
 const port = process.env.PORT || 5000;
-console.log(process.env.MONGODB_USER_NAME, process.env.MONGODB_PASSWORD, process.env.DATABASE_NAME)
+
 
 app.use(cors())
 
